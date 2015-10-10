@@ -4,9 +4,10 @@
 ***
 1. 第一步就是在当前路径打开cmd
 2. 输入如下代码
-    npm install
+	    npm install	
 3. 输入如下代码
-    gulp
+	    gulp	
+
 ***
 ## 功能 ##
 可以实时监听html/css/js动态变化，不用按F5即可看到最新的改变
