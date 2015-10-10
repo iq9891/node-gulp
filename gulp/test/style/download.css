@@ -1,0 +1,77 @@
+.warp{
+    overflow: hidden;
+	height:100%;
+	background: #15b6c3;
+}
+/******/
+.dyt-logo{
+	width:100%;
+	margin-top: 52px;
+}
+.dyt-logo img{
+	width:116px;
+	height:116px;
+	padding-left:40px;
+}
+
+.dyt-logo h3,p{
+	color:#fff;
+}
+
+.dyt-logo h3{
+	letter-spacing: 2px;
+	margin-top: -26px;
+	font-size: 30px;
+}
+.dyt-logo p{
+	height:28px;
+	line-height: 28px;
+}
+.dyt-logo .p1{
+	letter-spacing: 1px;
+}
+
+
+
+.foot-style{
+	width:100%;
+	background:url("../imgs/footbg.png") left;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 74px;
+	background-size: 100% 74px;
+	height: 74px;
+	max-height: 74px;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	right: 0px;
+}
+
+.dyt-download{
+	width:100%;
+	margin-bottom: 42px;
+	position: fixed;
+	bottom: 15%;
+}
+.dyt-download .dyt-btn{
+	width:208px;
+	height:56px;
+	line-height: 56px;
+	border:1px solid #fff;
+	color:#ffffff;
+	background: url("../imgs/apple.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: 26px 28px;
+	background-size: 26px 28px;
+	background-position: 24px center;
+}
+.dyt-download .dyt-btn .dyt-btn-txt{
+	color:#fff;
+	width:134px;
+	height:45px;
+	line-height: 45px;
+	border-left: 1px solid #fff;
+	margin-top: 5px;
+	font-size: 20px;
+}
+

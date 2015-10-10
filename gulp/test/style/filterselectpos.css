@@ -1,0 +1,64 @@
+.warp{
+    overflow: hidden;
+}
+
+/******/
+.area-info-list{
+	width:100%;
+}
+.area-info-list li{
+	padding-left:18px;
+	font-size:18px;
+	border-top:1px solid #e9e9e9;
+	height:45px;
+	line-height:45px;
+	background:#fff;
+}
+.area-info-list-l{
+	float:left;
+	color:#7c7e7e;
+}
+.area-info-list-r{
+	float:right;
+	width:30px;
+	padding-right:18px;
+	color:#15b6c3;
+}
+
+.fsColor{
+	color:#dadada;
+	width:60%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+
+}
+
+
+/******/
+.area-info{
+    margin:0px 18px;
+    height:36px;
+    line-height: 36px;
+}
+.area-info span{
+    font-size: 16px;
+}
+.area-info-l{
+    float:left;
+}
+.area-info-r{
+    float:right;
+}
+.area-info-default-color{
+    color:#7c7e7e;
+}
+.area-info-other-color{
+    color:#44c5cf;
+}
+
+/*areawrap*/
+.areawrap{
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,43 @@
+.warp{
+    overflow: hidden;
+}
+
+.title{height:36px;line-height: 36px;color:#57d8dd;}
+
+
+.hosinfo{padding: 14px 0;background-color: #ffffff;border-bottom: 1px solid #e9e9e9;overflow: hidden;}
+.hospital{margin-left:18px;line-height: 18px;font-size: 14px;color:#7c7e7e;}
+.hospital .cate-title{float: left;}
+.hospital .cate-content{overflow: hidden; padding-left: 14px;color: #303233;}
+.orderdate span{color: #303233;padding-left: 14px;}
+
+.orderdate{margin-left:18px;margin-top: 14px;height: 18px;line-height: 18px;font-size: 14px;color:#7c7e7e;}
+.section,.sectiondoc,.outdep,.outdepval,.pay,.tips,.geordate,.hosport,.deppos{margin-left:18px;line-height: 20px;font-size: 14px;color:#7c7e7e;}
+.section span,.sectiondoc span,.outdep span,.outdepval span,.pay span,.tips span,.geordate span,.hosport span,.deppos span{color: #303233;padding-left: 14px;}
+.tipscolor{color:white;}
+
+.clientinfo{margin-left:18px;height: 40px;line-height: 40px;font-size: 16px;color:#303233;}
+.clientname,.personcode,.phonecode{margin-left:18px;height: 20px;line-height: 20px;font-size: 14px;color:#7c7e7e;}
+.clientname span,.personcode span,.phonecode span{color: #303233;padding-left: 14px;}
+
+.dateinfo{padding-bottom: 10px;background-color: #ffffff;margin-bottom: 14px;overflow: hidden;}
+.dateperson{height: 110px;background-color: #ffffff;margin-bottom:: 30px;overflow: hidden;}
+.scrollwrap{overflow: hidden;}
+.scrollwrapCon {padding-bottom:30px;}
+
+.pay .info{padding-left:77px;}
+
+.btnsubmit{
+    display: block;
+    margin: 30px 18px 0;
+    height: 50px;
+    line-height:50px;
+    border-radius: 5px;
+    background-color:#ff6a30;
+    color:#ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.dn {display:none;}

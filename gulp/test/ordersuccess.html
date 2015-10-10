@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1, user-scalable=no"/>
+
+    <link rel="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href="style/common.css"/>
+    <link rel="stylesheet" href="style/ordersuccess.css"/>
+
+    <title>预约信息</title>
+</head>
+<body>
+<div class="warp">
+        <div class="title clearfix">
+            <div class="title-txt">
+                <div ><span class="font-icon font">B</span> <span class="fs14">您的预约信息已提交，预约成功后您的手机将会收到短信提示信息</span></div>
+                <div ><span class="font-icon font">B</span> <span class="fs14">如遇医生排班变化导致您的预约被取消，我们会以短信通知您</span></div>
+                <div ><span class="font-icon font">B</span> <span class="fs14">预约成功后本条预约记录将添加到您的个人病历中，如您尚未添加个人病历，请在我的帐号>我的病历中添加病历信息，您可以将症状情况预先添加以便医生提前了解您的病情</span></div>
+            </div>
+        </div>
+        <div id="scrollwrap">
+            <div>
+                <div class="hosinfo">
+                     <div class="hospital clearfix"><span class="fl">就诊医院:</span><div class="content hospName"></div></div>
+                     <div class="section clearfix"><span class="fl">就诊科室:</span><div class="content departmentName"></div></div>
+                     <div class="sectiondoc clearfix"><span class="fl">科室医生:</span><div class="content doctorName"></div></div>
+                     <div class="outdep clearfix"><span class="fl">门诊类型:</span><div class="content resourceTpyeText"></div></div>
+                     <div class="outdepval clearfix"><span class="fl">挂号费用:</span><div class="content expenseText"></div></div>
+                     <div class="pay"><span class="info">请以医院公布价格为准</span></div>
+                </div>
+                <div class="dateinfo ">
+                     <div class="orderdate clearfix"><span class="fl">就诊日期:</span><div class="content diagnosisDateText"></div></div>
+                     <!--<div class="tips tipscolor clearfix"><span class="fl">短信信息:</span><div class="content">具体请以短信为准</div></div>-->
+                     <div class="geordate clearfix"><span class="fl">取号时间:</span><div class="content retrieveTime"></div></div>
+                     <div class="hosport clearfix"><span class="fl">取号地点:</span><div class="content retrieveAddress"></div></div>
+                     <div class="deppos clearfix"><span class="fl">就诊地点:</span><div class="content diagnosisAddress"></div></div>
+                </div>
+                <div class="dateperson ">
+                    <div class="clientinfo ">就诊人信息</div>
+                    <div class="clientname clearfix"><span class="fl">患者姓名:</span><div class="content patientName"></div></div>
+                    <div class="personcode clearfix"><span class="fl">身份证号:</span><div class="content idCard"></div></div>
+                    <div class="phonecode clearfix"><span class="fl">手机号:</span><div class="content phone"></div></div>
+                </div>
+                <div class="btnsubmit center">返回首页</div>
+                <div style="height:20px;"></div>
+            </div>
+        </div>
+</div>
+
+
+
+
+</body>
+
+<script src="lib/zepto.js"></script>
+<script src="lib/iscroll.js"></script>
+<script src="lib/event.js"></script>
+<script src="lib/ajax.js"></script>
+<script src="lib/form.js"></script>
+<script src="lib/touch.js"></script>
+<script src="lib/fx.js"></script>
+<script src="js/config.js"></script>
+<script src="js/base.js"></script>
+<script src="js/ordersuccess.js"></script>
+</html>

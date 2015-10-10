@@ -1,0 +1,49 @@
+.warp{
+    overflow: hidden;
+}
+
+div.justify {text-align: justify;  }
+div.justify > span { display: inline-block /* Opera */; padding-left: 100%; }
+
+.tips{width: 100%;height:60px;}
+.tips span{display: inline-block;height: 100%;vertical-align: middle;}
+.tips p{display:inline-block;margin-left: 18px; margin-right:18px;font-size: 14px;color: #7c7e7e;line-height: 18px;vertical-align: middle;}
+
+
+.usernamewarp{width: 100%;display: -webkit-box;height: 50px;background-color: #fff;}
+.usericon{width:60px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 18px;color: #7c7e7e;}
+.username{-webkit-box-flex:1;height: 50px;}
+.username input{width:100%;height: 20px;margin-top: 15px;color: #000;font-size: 16px;line-height: 20px;}
+.passwarp,.phonewarp{width: 100%;display: -webkit-box;height: 50px;background-color: #fff; margin-top:1px;}
+.passicon{width:60px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 18px;color: #7c7e7e;}
+.pass{-webkit-box-flex:1;height: 50px;}
+.phone{height: 50px;}
+.pass input{width:100%;height: 20px;margin-top: 15px;color: #000;font-size: 16px;line-height: 20px;}
+.phone input{width:120px;height: 20px;margin-top: 15px;color: #000;font-size: 16px;line-height: 20px;}
+
+.sexwarp{width: 100%;display: -webkit-box;height: 50px;background-color: #fff; margin-top: 1px}
+.sexicon{width:60px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 18px;color: #7c7e7e;}
+.sex{-webkit-box-flex:1;height: 50px;}
+.sex .man{width:20%;height: 20px;margin-top: 15px;color: #b7b7b7;font-size: 16px;line-height: 20px;display: inline-block;}
+.man span{font-size: 18px;color: #b7b7b7;margin-right: 6px;}
+
+.sex .woman{width:20%;height: 20px;margin-top: 15px;color: #b7b7b7;font-size: 16px;line-height: 20px;display: inline-block;}
+.woman span{font-size: 18px;color: #b7b7b7;margin-right: 6px;}
+
+
+
+.mail{margin-top: 1px;}
+.mail .usericon{width:80px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 4px;color: #7c7e7e;}
+.btnsubmit{display: block; margin: 20px 18px;height: 50px;line-height:50px;border-radius: 5px;background-color:#ff6a30;color:#ffffff;font-size: 18px;letter-spacing: 10px;text-align: center;}
+
+.scrollwrap{overflow: hidden;}
+
+.shebaocard{width: 100%;display: -webkit-box;height: 50px;background-color: #fff;margin-top: 1px;}
+.shebaocard .usericon{width:80px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 4px;color: #7c7e7e;}
+.rescodewarp{width: 100%;display: -webkit-box;height: 50px;background-color: #fff; margin-top:1px;}
+.rescodeicon{width:100px;height: 50px;line-height: 50px;font-size: 18px;padding-left:18px;padding-right: 4px;color: #7c7e7e;}
+.rescode{-webkit-box-flex:1;height: 50px;}
+.rescode input{height: 20px;margin-top: 15px;color: #000;font-size: 16px;line-height: 20px;}
+.requestrecode{-webkit-box-flex:1;height: 50px;overflow: hidden;margin-right: 16px;}
+.requserecodetext{width: 80px;height: 26px;background-color: #15b6c3;color: white;font-size: 10px;line-height: 26px; text-align: center;margin-top: 12px;}
+.requserecodetexttype2{display:none;width: 80px;height: 26px;background-color: #b2b2b2;color: #fff;font-size: 10px;line-height: 26px; text-align: center;margin-top: 12px;}

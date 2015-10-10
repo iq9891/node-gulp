@@ -1,0 +1,12 @@
+.warp{
+    overflow: hidden;
+}
+.departList { width: 100%; }
+
+.page-tile { display: block;color: #57b8dd; padding: 0 16px; font-size: 16px; height: 36px; line-height: 36px;}
+
+/*.departList div:first-child { border-top: none; }*/
+.departList div .enterdepart { font-family: "myIcon"; color: #b7b7b7; float: right; }
+.scrollwrap{overflow: hidden;}
+
+.departList div { display: block; background-color: #fff; border-bottom: 1px solid #e9e9e9; color: #303233; padding: 0 16px; font-size: 16px; height: 50px; line-height: 50px; }
