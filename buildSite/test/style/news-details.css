@@ -1,0 +1,20 @@
+.wrap{
+    margin-top: 18px;
+    width: 100%;
+}
+.news-details-warp{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.news-details-title-text{
+    font-size: 18px;
+    color: #292929;
+}
+.news-details-title-time{
+    line-height: 40px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+#scrollwarp{
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+.warp{
+    overflow: hidden;
+}
+.about-us{
+	margin:0 18px;
+}
+.about-us-logo{
+	padding-top:15px;
+	width:100%;
+	text-align: center;
+}
+.about-us-logo span{
+	font-family:"myIcon";
+	font-size:135px;
+	color:#15b6c3;
+}
+.about-us-desc{
+	margin-top:-20px;
+}
+.about-us-desc p{
+	font-size:15px;
+	color:#7c7e7e;
+	line-height:25px;
+}
+

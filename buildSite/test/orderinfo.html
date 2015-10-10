@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1, user-scalable=no"/>
+
+    <link rel="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href="style/common.css"/>
+    <link rel="stylesheet" href="style/orderinfo.css"/>
+
+    <title>预约－确认信息</title>
+</head>
+<body>
+<div class="warp">
+
+        <div class="orderinfo-f">
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">就诊医院:<span></span></div><div class="f-list-r" id="hospName"></div></div>
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">科室医生:<span></span></div><div class="f-list-r" id="doctorName"></div></div>
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">门诊时间:<span></span></div><div class="f-list-r" id="resourceDateView"></div></div>
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">门诊类型:<span></span></div><div class="f-list-r" id="resourceTpyeText"></div></div>
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">挂号费用:<span></span></div><div class="f-list-r" id="expenseText"></div></div>
+            <div class="orderinfo-f-li clearfix"><div class="f-list-l fl ">&nbsp;<span></span></div><div class="f-list-r " >请以医院公布价格为准</div></div>
+        </div>
+    <div id="scrollwrap">
+        <div>
+            <div class="orderinfo-s">
+                <div class="orderinfo-s-li clearfix patientName"><div class="justify s-list-l fl ">就 诊 人:</div><div  class="s-list-r checked" id="patientName"> <span class="font-icon fr goto textright fs12">n</span></div></div>
+                <div class="orderinfo-s-li clearfix"><div class="justify s-list-l fl">初/复 诊:</div><div  class="s-list-r" ><span name="isFirstVisit" class="radio checked" val="1"><span class="font-icon ">y</span> 初诊</span><span name="isFirstVisit" class="radio" val="2"><span class="font-icon">x</span> 复诊</span></div></div>
+                <div class="orderinfo-s-li clearfix"><div class="justify s-list-l fl">请 选 择:</div><div  class="s-list-r select" ><span class="radio checked" val="1" name="medicareNumber"><span class="font-icon">y</span> 医保卡号</span><span class="radio" val="2" name="medicareNumber"><span class="font-icon">x</span> 就诊卡</span><span class="radio" val="3" name="medicareNumber"><span class="font-icon">x</span> 自费初诊</span></div></div>
+                <div class="orderinfo-s-li clearfix">
+                    <div  class="input" id="medicareNumber">
+                        <input type="text" class="radius5" placeholder="请正确输入社保卡号"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thirdparty hide">
+                <div class="thirdpartywarp ">
+                    <div class="thirdparttitle textcenter">
+                        <span>请输入医院卡号信息</span>
+                    </div>
+                    <div class="thirdpartynumberwarp clearfix">
+                        <h3 class="fl">就诊卡号:</h3>
+                        <p><input type="text" placeholder="请输入就诊卡号"></p>
+                    </div>
+                    <div class="thirdpartypasswarp clearfix">
+                        <h3 class="fl">密码:</h3>
+                        <p><input type="text" placeholder="请输入密码"></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="orderinfo-t fs14">
+                如您选择自费出诊，根据部分医院规定，您将无法使用医保卡进行取号，可能导致预约无效；如您是复诊的自费病人，请务必填写原就诊卡号，否则将无法挂号就诊；您最多可同时预约2位医生，如您已成功预约2位医生需等待就医完成或取消后才能再次预约。
+            </div>
+            <div class="btnsubmit center">确认预约</div>
+            <div style="height:50px;"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="lib/zepto.js"></script>
+<script src="lib/iscroll.js"></script>
+<script src="lib/event.js"></script>
+<script src="lib/ajax.js"></script>
+<script src="lib/form.js"></script>
+<script src="lib/touch.js"></script>
+<script src="lib/fx.js"></script>
+<script src="js/config.js"></script>
+<script src="js/base.js"></script>
+<script src="js/orderinfo.js"></script>
+</html>

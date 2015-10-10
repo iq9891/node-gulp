@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1, user-scalable=no"/>
+
+    <link rel="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href="style/common.css"/>
+    <link rel="stylesheet" href="style/docdetail.css"/>
+
+    <title>医生详情</title>
+</head>
+<body>
+    <div class="warp">
+        <div class="docdetail">
+            <div class="docdetail-face">
+                <!--<div class="docdetail-l fl">-->
+                    <!--<div class="fs16 textcenter">周谦</div>-->
+                    <!--<hr>-->
+                    <!--<div class="fs14 textcenter">主任医师</div>-->
+                <!--</div>-->
+                <!--<div class="docdetail-r fr">-->
+                    <!--<div class="fs14 textcenter">患者数</div>-->
+                    <!--<hr>-->
+                    <!--<div class="fs14 textcenter">798</div>-->
+                <!--</div>-->
+                <div class="docdetail-c center">
+                    <div class="docdetail-c-iframe">
+                        <img id="doctorHeadImage" src="imgs/defaultdoctor.jpg" />
+                    </div>
+                </div>
+                <div class="textcenter docdetail-name"><span id="doctorName" class="fs18"></span><img src="imgs/plus.png"/><span class="fs14" id="doctorGrade"></span></div>
+            </div>
+        </div>
+        <div class="docdetail-tab">
+            <div class="docdetail-tab-box">
+                <div class="docdetail-tab-l fl nochecked  fs18">医生简介</div>
+                <div class="docdetail-tab-r fl checked fs18">预约挂号</div>
+            </div>
+        </div>
+        <div class="scrollwarp" id="scrollwarp">
+            <div class="scroll">
+            <div class="docdetail-introduce" style="display:none">
+                <div class="docdetail-txt clearfix">
+                    <div class="docdetail-txt-l fl"><span class="font-icon fs18">F</span></div>
+                    <div class="docdetail-txt-r fl">
+                        <h3 class="fs16" id="hospName">上海交通大学附属第六人民医院</h3>
+                        <p class="fs14" id="departmentName">心血管内科</p>
+                    </div>
+                </div>
+                <div class="docdetail-txt clearfix">
+                    <div class="docdetail-txt-l fl"><span class="font-icon fs18">G</span></div>
+                    <div class="docdetail-txt-r fl">
+                        <h3 class="fs16" >擅长</h3>
+                        <p class="fs14" id="specialtydesc" >暂无该医生资料</p>
+                    </div>
+                </div>
+                <div class="docdetail-txt clearfix">
+                    <div class="docdetail-txt-l fl"><span class="font-icon fs18">H</span></div>
+                    <div class="docdetail-txt-r fl">
+                        <h3 class="fs16">简介</h3>
+                        <p class="fs14" id="doctorDesc">暂无该医生资料</p>
+                    </div>
+                </div>
+            </div>
+            <div class="docdetail-register">
+                <!--<div class="docdetail-list register-ok">-->
+                    <!--<div class="docdetail-list-l fl">-->
+                        <!--<h3><span>2014-11-13</span><span>周五</span><span>上午</span></h3>-->
+                        <!--<p class="fs14">普通门诊 4.5元</p>-->
+                    <!--</div>-->
+                    <!--<div class="docdetail-list-r fr textcenter radius5 fs16">预约</div>-->
+                <!--</div>-->
+                <!--<div class="docdetail-list register-no-ok">-->
+                    <!--<div class="docdetail-list-l fl">-->
+                        <!--<h3><span>2014-11-13</span><span>周五</span><span>上午</span></h3>-->
+                        <!--<p class="fs14">普通门诊 4.5元</p>-->
+                    <!--</div>-->
+                    <!--<div class="docdetail-list-r fr textcenter radius5 fs16">已满</div>-->
+                <!--</div>-->
+                <!--<div class="docdetail-list register-stop">-->
+                    <!--<div class="docdetail-list-l fl">-->
+                        <!--<h3><span>2014-11-13</span><span>周五</span><span>上午</span></h3>-->
+                        <!--<p class="fs14">普通门诊 4.5元</p>-->
+                    <!--</div>-->
+                    <!--<div class="docdetail-list-r fr textcenter radius5 fs16">停诊</div>-->
+                <!--</div>-->
+                <!--<div class="nothing-work textcenter fs18">暂无排班！</div>-->
+            </div>
+            </div>
+        </div>
+        <div class="select-time-shade hide">
+            <div class="select-time radius3">
+                <h3 class="fs18">选择时间段：</h3><span class="close"></span>
+                <div id="time-list" >
+                <div class="time-list clearfix">
+                    <!--<div class="fl center textcenter noselect">8:00-8:59</div>-->
+                    <!--<div class="fl center textcenter noselect">8:00-8:59</div>-->
+                    <!--<div class="fl center textcenter select">8:00-8:59</div>-->
+                    <!--<div class="fl center textcenter noselect">8:00-8:59</div>-->
+                    <!--<div class="fl center textcenter noselect">8:00-8:59</div>-->
+                    <!--<div class="fl center textcenter noselect">8:00-8:59</div>-->
+                </div>
+                </div>
+                <div class="btnsubmit center">确定</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="lib/zepto.js"></script>
+<script src="lib/iscroll.js"></script>
+<script src="lib/event.js"></script>
+<script src="lib/ajax.js"></script>
+<script src="lib/form.js"></script>
+<script src="lib/touch.js"></script>
+<script src="lib/fx.js"></script>
+<script src="js/config.js"></script>
+<script src="js/base.js"></script>
+<script src="js/docdetail.js"></script>
+</html>

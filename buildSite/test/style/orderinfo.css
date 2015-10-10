@@ -1,0 +1,102 @@
+.warp{
+    overflow: hidden;
+}
+
+div.justify {text-align: justify;  }
+div.justify > span { display: inline-block /* Opera */; padding-left: 100%; }
+
+.orderinfo-f{
+    background: #fff;
+    width: 100%;
+    /*height:132px;*/
+    padding-top:18px;
+    padding-bottom: 12px;
+}
+.orderinfo-f-li{
+    /*height:20px;*/
+    line-height: 20px;
+}
+
+.f-list-l,.s-list-l{
+    width:72px;
+    color:#7c7e7e;
+    font-size:14px;
+    margin-left:18px;
+}
+.f-list-r,.s-list-r{
+    font-size:14px;
+    color:#303233;
+    word-break:break-all;
+    margin-left:92px;
+    margin-right:18px;
+}
+
+.orderinfo-s{
+    background: #fff;
+    width: 100%;
+    margin:18px 0;
+}
+.orderinfo-s-li{
+    min-height:50px;
+    line-height: 50px;
+    border-bottom:1px solid #e9e9e9;
+}
+.orderinfo-s-li .goto{
+    width:50px;
+    color:#b7b7b7;
+}
+.orderinfo-s-li .s-list-r .radio{
+    margin-right:30px;
+}
+.orderinfo-s-li .s-list-r{
+    color:#b7b7b7;
+}
+.orderinfo-s-li .select{
+    width:200px;
+}
+.orderinfo-s-li .checked{
+    color:#303233;
+}
+.orderinfo-s-li .input{
+    padding:0 18px;
+    text-align: center;
+}
+.orderinfo-s-li .input input{
+    border:1px #c4c4c4 solid;
+    width:100%;
+    height:32px;
+    margin:18px 0;
+    text-indent: 70px;
+}
+.orderinfo-t{
+    margin:0 18px;
+    color:#7c7e7e;
+
+}
+
+.btnsubmit{
+    display: block;
+    margin: 30px 18px;
+    height: 50px;
+    line-height:50px;
+    border-radius: 5px;
+    background-color:#ff6a30;
+    color:#ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#scrollwrap{
+    overflow: hidden;
+}
+
+.thirdparty{width: 100%;height: 120px; margin-top: 18px;margin-bottom: 18px;background-color: #ffffff;}
+.thirdpartywarp{margin:0px 18px;}
+.thirdparttitle{height: 32px;line-height: 32px;font-size: 16px;color:#6393ff;margin:0 auto;background: url("../imgs/thirdbg.png") center;}
+.thirdparttitle span{background:#fff;}
+.thirdpartynumberwarp,.thirdpartypasswarp{height: 44px;display: none;}
+.thirdpartynumberwarp{border-bottom: #e9e9e9 solid 1px;}
+.thirdpartynumberwarp h3,.thirdpartypasswarp h3{width: 76px;font-size: 14px;height:44px;line-height: 44px;font-weight: normal;}
+.thirdpartynumberwarp p,.thirdpartypasswarp p{margin-left: 76px;width: 100%;font-size: 14px;height:44px;line-height: 44px;}
+.thirdpartynumberwarp input,.thirdpartypasswarp input{width:80%;}
