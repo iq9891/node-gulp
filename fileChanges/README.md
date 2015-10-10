@@ -4,9 +4,9 @@
 
 1. 第一步就是在当前路径打开cmd
 2. 输入如下代码
-	    npm install	
+<pre>npm install</pre>
 3. 输入如下代码
-	    gulp	
+<pre>gulp</pre>	
 
 ## 功能 ##
 
