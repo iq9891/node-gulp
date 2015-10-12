@@ -3,13 +3,13 @@ var gutil    = require('gulp-util');
 var uglify  = require('gulp-uglify');
 var concat  = require('gulp-concat');
 
-gulp.task('concat', function () {
+gulp.task('merger', function () {
     gulp.src('./src/*.js')
-        .pipe(uglify())
-        .pipe(concat('all.min.js'))
-        .pipe(gulp.dest('./build'));
+        .pipe(uglify())//压缩js
+        .pipe(concat('all.min.js'))//合并js
+        .pipe(gulp.dest('./to'));//输出新的js
 });
 
-gulp.task('default', ['concat']);
+gulp.task('default', ['merger']);
 
 //http://www.tuicool.com/articles/2YzUVf
