@@ -1,5 +1,5 @@
 {
-  "name": "compileSass",
+  "name": "fileChanges",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "gulp": "3.9.0",
-    "gulp-sass": "2.0.4",
-    "browser-sync": "2.9.10"
+    "gulp-babel": "6.1.0",
+    "babel-preset-es2015": "6.1.4"
   },
   "author": "",
   "license": "ISC",

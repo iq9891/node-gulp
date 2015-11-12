@@ -1,5 +1,5 @@
 {
-  "name": "yeoman",
+  "name": "buildSite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "gulp-csso": "1.0.0",
     "gulp-imagemin": "2.3.0",
     "merge-stream": "1.0.0",
-    "gulp-jshint": "0.0.1",
+    "gulp-jshint": "1.12.0",
     "gulp.spritesmith": "4.1.1",
     "gulp-rev-easy": "1.1.1",
     "gulp-htmlmin": "1.2.0"
